@@ -1,20 +1,11 @@
 # GetJob.com-Webscraper
-# Project Name
-   Get Job.com
 
-#Project team
+Project team
 Shashank Chikara |  schikara@andrew.cmu.edu
 Jennifer B Liu | jbistafa@andrew.cmu.edu
 Jing Cao  | jingc2@andrew.cmu.edu
 Dhruv Dixit  | dhruvdix@andrew.cmu.edu
 Yingqian Wang | yingqian@andrew.cmu.edu
-
-#Table of contents
-Project Description
-Requirements
-How to Run
-Video Demonstration
-
 
 # Project Description
 This project is a web scraper to give you job opportunities based on the type of job desired and the location. Relevant statistics for the job and location are also provided, along with reviews from current/past employees.
@@ -47,7 +38,7 @@ After setting up the entire environment, download the zip file provided. It is c
 
 Navigating the UI:
 
-
+<img width="605" alt="Screen Shot 2023-02-16 at 10 39 05 PM" src="https://user-images.githubusercontent.com/110956369/219543663-35d09afa-7ccf-4247-adb6-0ffca3d49908.png">
 
 Here the user is asked to enter the information of following two questions 
 Enter your desired job title: 
@@ -58,7 +49,7 @@ After typing in information, the program will start to work and CLI based user i
 
 Once the data is scrapped and crunched, the user is presented with a table containing the job postings and other information including job title, company, location, salary and time of posted, as shown below:
 
-
+<img width="622" alt="Screen Shot 2023-02-16 at 10 41 12 PM" src="https://user-images.githubusercontent.com/110956369/219543738-06ba78d4-21cc-4a77-991d-f266850fad07.png">
 
 Here you are presented with a menu where you can see options like
 Enter the job id to get more details
@@ -71,8 +62,9 @@ You can select different options to get into the next step.
 
 If a user enters the job id  (generally between 0-24), the user can get the detailed information about the jobs as shown below. More information like company rating, headcount, avg. salary at the company and many location information will be presented. To make the results more straightforward and better help users to make decisions we also include some charts here. We make a comparison of the crime rate, Avg.Home Value and income between the location user selected and the avg. of US. Also days of job posting are also presented with charts. The programme also collects the reviews of the company which is presented following the charts.  
 
+<img width="429" alt="Screen Shot 2023-02-16 at 10 42 17 PM" src="https://user-images.githubusercontent.com/110956369/219543862-e26ca37f-946e-4806-819d-26ffd4eaa3a7.png">
 
-
+<img width="425" alt="Screen Shot 2023-02-16 at 10 42 45 PM" src="https://user-images.githubusercontent.com/110956369/219543914-d363227a-5344-4292-8d36-30f8d839515d.png">
 
 Also the users can get more information about livability with the livability score. First the user will be asked to provide the Job ID in the following information.
 Enter the Job ID to calculate the livability score:
@@ -93,11 +85,11 @@ Rank 4th most important criteria = 10%
 
 The livability score will range from 0 (zero) to 100 (one hundred). The final score will help users decide between different locations, which one would be more appropriate to him/her.
 
-
+<img width="461" alt="Screen Shot 2023-02-16 at 10 43 14 PM" src="https://user-images.githubusercontent.com/110956369/219543993-f190b128-b49c-49f8-8c26-9dbe920cdff4.png">
 
 If you want to go back to get detailed information about another company, then you can type in “b” in the choice blank to go back to the search results. Then you can check the information about other companies you like using the same procedures we go over above.
 
-
+<img width="519" alt="Screen Shot 2023-02-16 at 10 43 55 PM" src="https://user-images.githubusercontent.com/110956369/219544054-db42d535-1649-44a0-ab32-aede58ec82ee.png">
 
 Then if you want to quit and exit, you just need to type “q” in the  choice blank.
 
